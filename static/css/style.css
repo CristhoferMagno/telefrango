@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Gotham Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gotham Black'), url("~/static/fonts/GothamBlackRegular.woff") format('woff');
+}
+@font-face {
+    font-family: 'Gotham Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gotham Book'), url("~/static/fonts/GothamBook.woff") format('woff');
+}
+@font-face {
+    font-family: 'Gotham Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gotham Italic'), url("~/static/fonts/GothamBookItalic.woff") format('woff');
+}
+@font-face {
+    font-family: 'Gotham Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gotham Light'), url("~/static/fonts/GothamLight.woff") format('woff');
+}
+body{
+    font-family: 'Gotham Book';
+}
+.fade-enter-active, .fade-leave-active {
+    transition: opacity 0.3s
+}
+.fade-enter, .fade-leave-active {
+    opacity: 0
+}
+.institucional-header{
+    background: url("~/static/imgs/fundo-info-tele.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div{
+    border: solid 1px red;
+}
